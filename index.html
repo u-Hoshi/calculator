@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>電卓</title>
+</head>
+<body>
+    <div id="dentaku">
+        <input value="" action="" name="input" id="log">
+        <table>
+            <div>
+                <button input="button" id="AC" value="" onclick="edit(this)">AC</button>
+                <button input="button" id="+/-" value="" onclick="edit(this)">+/-</button>
+                <button input="button" id="%" value="%" onclick="edit(this)">%</button>
+                <button input="button" id="÷" value="/" onclick="edit(this)">÷</button>
+            </div>
+            <div>
+                <button input="button" id="7" value="7" onclick="edit(this)">7</button>
+                <button input="button" id="8" value="8" onclick="edit(this)">8</button>
+                <button input="button" id="9" value="9" onclick="edit(this)">9</button>
+                <button input="button" id="×" value="×" onclick="edit(this)">×</button>
+            </div>
+            <div>
+                <button input="button" id="4" value="4" onclick="edit(this)">4</button>
+                <button input="button" id="5" value="5" onclick="edit(this)">5</button>
+                <button input="button" id="6" value="6" onclick="edit(this)">6</button>
+                <button input="button" id="-" value="-" onclick="edit(this)">-</button>
+            </div>
+            <div>
+                <button input="button" id="1" value="1" onclick="edit(this)" >1</button>
+                <button input="button" id="2" value="2" onclick="edit(this)">2</button>
+                <button input="button" id="3" value="3" onclick="edit(this)">3</button>
+                <button input="button" id="+" value='+' onclick="edit(this)">+</button>
+            </div>
+            <div>
+                <button input="button" id="">0</button>
+                <button input="button" id="">0</button>
+                <button input="button" id="">.</button>
+                <button input="button"  value="=" onclick="calc()">=</button>
+            </tr>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
